@@ -56,7 +56,7 @@ function setChordCountsInLabels(){
       if(chordCountsInLabels[i[0]][j] > 0){
         chordCountsInLabels[i[0]][j] = chordCountsInLabels[i[0]][j] + 1;
       } else {
-        chordCountsInLabels[i[0][j]] = 1;
+        chordCountsInLabels[i[0]][j] = 1;
       }
     })
   })
